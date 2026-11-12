@@ -1,9 +1,9 @@
-PIAD · VISOR LOCAL PARA GITHUB PAGES
+PIAD · VISOR LOCAL AMPLIADO
 
-Esta es una versión nueva y limitada de consulta, no la aplicación PIAD original. Solo incluye código, sin archivos Excel, PDF ni base de datos.
+Visor estático de consulta, no reemplaza la aplicación completa. Agrega múltiples libros Excel y PDF: procesa cada uno en el navegador, consolida operativos por número de parte y evita filas repetidas. Los libros nuevos amplían los casos existentes mientras la pestaña siga abierta.
 
-Funciones: abrir Excel de la hoja OPERATIVOS en el navegador, buscar, filtrar, ver la fila completa y abrir un PDF local por separado. No enlaza casos automáticamente con las páginas del PDF ni reproduce el mapa, análisis, edición, Drive, archivos o funciones del servidor original. No envía archivos a un servidor ni los guarda permanentemente. Al recargar hay que seleccionarlos de nuevo. La seguridad del dispositivo y de los archivos sigue siendo responsabilidad del usuario. No seleccionar archivos que no sean de confianza.
+Incluye mapa con marcadores agrupados, filtros por provincia, distrito, delito, grupo delictivo, año, mes, equipo y rango de fechas; estadísticas filtradas por provincia y equipo; ficha con datos operativos y judiciales; e índice local de varios PDF para mostrar páginas coincidentes. La búsqueda de páginas es aproximada: verifica antes de asociar una imagen al caso. Puedes añadir fotos sueltas; nómbralas con el número del operativo o impunidad para vincularlas.
 
-Para publicar, crear un repositorio y subir SOLO los siguientes archivos al directorio principal: index.html, estilo.css, app.js, xlsx.full.min.js, LEEME.txt. Activar GitHub Pages desde la rama principal y la carpeta raíz. GitHub Pages es público: NO subir ningún Excel, PDF, archivo .db ni datos. El sitio por sí solo no contiene datos. No instalar código de terceros no verificado ni agregar analíticas que envíen datos. Las funciones dependen del navegador y grandes archivos pueden exceder la memoria del dispositivo. El PDF se abre por separado y Safari puede presentarlo en otra pestaña.
+Los datos no se suben ni guardan permanentemente; permanecen solo en memoria de esta pestaña. Al recargar se borran y hay que volver a agregarlos. La página/repo de GitHub son públicos: jamás subas archivos de datos, fotos, base de datos o información personal. Los mosaicos del mapa los solicita el navegador a OpenStreetMap, no se envían allí tus filas.
 
-Biblioteca: SheetJS Community Edition 0.20.3 (xlsx.full.min.js), distribuida bajo Apache License 2.0; https://sheetjs.com/ y https://github.com/SheetJS/sheetjs .
+Bibliotecas locales: SheetJS CE 0.20.3, Leaflet 1.9.4, Leaflet.markercluster 1.5.3, PDF.js 3.11.174.
