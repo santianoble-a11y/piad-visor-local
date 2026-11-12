@@ -1,0 +1,9 @@
+PIAD · VISOR LOCAL PARA GITHUB PAGES
+
+Esta es una versión nueva y limitada de consulta, no la aplicación PIAD original. Solo incluye código, sin archivos Excel, PDF ni base de datos.
+
+Funciones: abrir Excel de la hoja OPERATIVOS en el navegador, buscar, filtrar, ver la fila completa y abrir un PDF local por separado. No enlaza casos automáticamente con las páginas del PDF ni reproduce el mapa, análisis, edición, Drive, archivos o funciones del servidor original. No envía archivos a un servidor ni los guarda permanentemente. Al recargar hay que seleccionarlos de nuevo. La seguridad del dispositivo y de los archivos sigue siendo responsabilidad del usuario. No seleccionar archivos que no sean de confianza.
+
+Para publicar, crear un repositorio y subir SOLO los siguientes archivos al directorio principal: index.html, estilo.css, app.js, xlsx.full.min.js, LEEME.txt. Activar GitHub Pages desde la rama principal y la carpeta raíz. GitHub Pages es público: NO subir ningún Excel, PDF, archivo .db ni datos. El sitio por sí solo no contiene datos. No instalar código de terceros no verificado ni agregar analíticas que envíen datos. Las funciones dependen del navegador y grandes archivos pueden exceder la memoria del dispositivo. El PDF se abre por separado y Safari puede presentarlo en otra pestaña.
+
+Biblioteca: SheetJS Community Edition 0.20.3 (xlsx.full.min.js), distribuida bajo Apache License 2.0; https://sheetjs.com/ y https://github.com/SheetJS/sheetjs .
